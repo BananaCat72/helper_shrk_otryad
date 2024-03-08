@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\что-то мое\\мои программы\\helper_shrk_otryad\\helper_shrk_otryad\\helper_shrk_otryad.csproj": {}
+    "E:\\что-то мое\\мои программы\\helper_shrk_otryad\\helper_shrk_otryad\\helper_shrk_otryad\\helper_shrk_otryad.csproj": {}
   },
   "projects": {
-    "E:\\что-то мое\\мои программы\\helper_shrk_otryad\\helper_shrk_otryad\\helper_shrk_otryad.csproj": {
+    "E:\\что-то мое\\мои программы\\helper_shrk_otryad\\helper_shrk_otryad\\helper_shrk_otryad\\helper_shrk_otryad.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\что-то мое\\мои программы\\helper_shrk_otryad\\helper_shrk_otryad\\helper_shrk_otryad.csproj",
+        "projectUniqueName": "E:\\что-то мое\\мои программы\\helper_shrk_otryad\\helper_shrk_otryad\\helper_shrk_otryad\\helper_shrk_otryad.csproj",
         "projectName": "helper_shrk_otryad",
-        "projectPath": "E:\\что-то мое\\мои программы\\helper_shrk_otryad\\helper_shrk_otryad\\helper_shrk_otryad.csproj",
+        "projectPath": "E:\\что-то мое\\мои программы\\helper_shrk_otryad\\helper_shrk_otryad\\helper_shrk_otryad\\helper_shrk_otryad.csproj",
         "packagesPath": "C:\\Users\\бобик\\.nuget\\packages\\",
-        "outputPath": "E:\\что-то мое\\мои программы\\helper_shrk_otryad\\helper_shrk_otryad\\obj\\",
+        "outputPath": "E:\\что-то мое\\мои программы\\helper_shrk_otryad\\helper_shrk_otryad\\helper_shrk_otryad\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
