@@ -1,0 +1,17 @@
+E:\что-то мое\мои программы\helper_shrk_otryad\helper_shrk_otryad\bin\Debug\net6.0-windows\helper_shrk_otryad.exe
+E:\что-то мое\мои программы\helper_shrk_otryad\helper_shrk_otryad\bin\Debug\net6.0-windows\helper_shrk_otryad.deps.json
+E:\что-то мое\мои программы\helper_shrk_otryad\helper_shrk_otryad\bin\Debug\net6.0-windows\helper_shrk_otryad.runtimeconfig.json
+E:\что-то мое\мои программы\helper_shrk_otryad\helper_shrk_otryad\bin\Debug\net6.0-windows\helper_shrk_otryad.dll
+E:\что-то мое\мои программы\helper_shrk_otryad\helper_shrk_otryad\bin\Debug\net6.0-windows\helper_shrk_otryad.pdb
+E:\что-то мое\мои программы\helper_shrk_otryad\helper_shrk_otryad\obj\Debug\net6.0-windows\helper_shrk_otryad.Form1.resources
+E:\что-то мое\мои программы\helper_shrk_otryad\helper_shrk_otryad\obj\Debug\net6.0-windows\helper_shrk_otryad.Properties.Resources.resources
+E:\что-то мое\мои программы\helper_shrk_otryad\helper_shrk_otryad\obj\Debug\net6.0-windows\helper_shrk_otryad.csproj.GenerateResource.cache
+E:\что-то мое\мои программы\helper_shrk_otryad\helper_shrk_otryad\obj\Debug\net6.0-windows\helper_shrk_otryad.GeneratedMSBuildEditorConfig.editorconfig
+E:\что-то мое\мои программы\helper_shrk_otryad\helper_shrk_otryad\obj\Debug\net6.0-windows\helper_shrk_otryad.AssemblyInfoInputs.cache
+E:\что-то мое\мои программы\helper_shrk_otryad\helper_shrk_otryad\obj\Debug\net6.0-windows\helper_shrk_otryad.AssemblyInfo.cs
+E:\что-то мое\мои программы\helper_shrk_otryad\helper_shrk_otryad\obj\Debug\net6.0-windows\helper_shrk_otryad.csproj.CoreCompileInputs.cache
+E:\что-то мое\мои программы\helper_shrk_otryad\helper_shrk_otryad\obj\Debug\net6.0-windows\helper_shrk_otryad.dll
+E:\что-то мое\мои программы\helper_shrk_otryad\helper_shrk_otryad\obj\Debug\net6.0-windows\refint\helper_shrk_otryad.dll
+E:\что-то мое\мои программы\helper_shrk_otryad\helper_shrk_otryad\obj\Debug\net6.0-windows\helper_shrk_otryad.pdb
+E:\что-то мое\мои программы\helper_shrk_otryad\helper_shrk_otryad\obj\Debug\net6.0-windows\helper_shrk_otryad.genruntimeconfig.cache
+E:\что-то мое\мои программы\helper_shrk_otryad\helper_shrk_otryad\obj\Debug\net6.0-windows\ref\helper_shrk_otryad.dll
