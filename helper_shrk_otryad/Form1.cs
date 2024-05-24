@@ -406,10 +406,17 @@ namespace helper_shrk_otryad
                                 if (!lectureParticipants.ContainsKey(participantId))
                                 {
                                     lectureParticipants[participantId] = new Dictionary<string, int>();
+                                    lectureParticipants[participantId]["лекции"] = 0;
+                                    lectureParticipants[participantId]["дополнительные монетки"] = 0;
                                 }
 
-                                lectureParticipants[participantId].TryGetValue("монетки", out int count);
-                                lectureParticipants[participantId]["монетки"] = count + participantCount;
+                                lectureParticipants[participantId]["лекции"]++;
+
+                                if (participantCount == 35)
+                                {
+                                    lectureParticipants[participantId]["дополнительные монетки"] += 15;
+                                }
+
                             }
                         }
                     }
@@ -441,6 +448,8 @@ namespace helper_shrk_otryad
                                     taleParticipants[participantId] = new Dictionary<string, int>();
                                 }
 
+                                lectureParticipants[participantId]["лекции"] += participantCount;
+
                                 taleParticipants[participantId].TryGetValue("монетки", out int count);
                                 taleParticipants[participantId]["монетки"] = count + participantCount;
                             }
@@ -454,7 +463,7 @@ namespace helper_shrk_otryad
                 //}
             }
 
-            // Вывод результатов
+            // Вывод результатов ЛЕКЦИИ
             textBox1.Text += "ОТРЯД КИТОВ - ЛЕКЦИИ\r\n";
             foreach (KeyValuePair<string, int> entry in lectureCollectors)
             {
@@ -463,13 +472,11 @@ namespace helper_shrk_otryad
 
             foreach (KeyValuePair<string, Dictionary<string, int>> entry in lectureParticipants)
             {
-                textBox1.Text += $"{entry.Key} ";
-                foreach (KeyValuePair<string, int> countEntry in entry.Value)
-                {
-                    textBox1.Text += $"{countEntry.Value} {countEntry.Key}\r\n";
-                }
+                textBox1.Text += $"{entry.Key} {entry.Value["лекции"]} {entry.Value["дополнительные монетки"]}\r\n";
             }
 
+
+            // Вывод результатов СКАЗКИ
             textBox2.Text += "ОТРЯД КИТОВ - СКАЗКИ\r\n";
             foreach (KeyValuePair<string, int> entry in taleCollectors)
             {
@@ -484,12 +491,6 @@ namespace helper_shrk_otryad
                     textBox2.Text += $"{countEntry.Value} {countEntry.Key}\r\n";
                 }
             }
-
-
-
-
-
-
         }
 
         static int GetParticipantCount(string participantCountString)
